@@ -10,10 +10,9 @@ namespace Worksheet1
     {
         //constructor bears the same name as the class which is used to create an instance of a class(the object)
         //  secondary objective of a construct: is can be used as a normal method
-        public Circle()
+        public Circle(double radius)
         {
-            Radius = 0; //setting to default values
-            Colour = "Black";
+            Radius = radius;
         }
 
         public string Colour { get; set; }
